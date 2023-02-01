@@ -1,0 +1,45 @@
+
+/***** NAV BAR STYLING ******/
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+body {
+    height: 125vh;
+    background-image: url(../Images/Medfly/Male_medfly_close_up_insect.jfif);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: #8A946F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
