@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="./Images/Favicons/apple-touch-icon.png" />
     </head>
     <body>
-        <header>
+        <header role="banner">
             <img src="./Images/cropped-cropped-Logo-See-Thru-1.png" alt="Farma Tech Logo"/>
             <nav>
                 <ul>
@@ -21,6 +21,30 @@
             </nav>
         </header>
         <main>
+            <div class="Slideshow-Container Fade">
+
+                <div class="Containers">
+                    <img src="./Images/Medfly/Male_medfly_close_up_insect.jfif" alt="male medfly on a leaf" />
+                </div>
+
+                <div class="Containers">
+                    <img src="./Images/Oriental/DSC00763 modified.jpg" alt="bactrocera fly on a lure" />
+                </div>
+
+                <div class="Containers">
+                    <img src="./Images/Queensland/Queensland_Fruit_Fly_-_Bactrocera_tryoni.jfif" alt="queensland fruit fly on a leaf" />
+                </div>
+
+                <a class="Back" onclick="PlusSlides(-1)">&#10094</a>
+                <a class="Forward" onclick="PlusSlides(1)">&#10095</a>
+            </div>
+            <br>
+
+            <div class="Dot-Container">
+                <span class="Dots" onclick="CurrentSlide(1)"></span>
+                <span class="Dots" onclick="CurrentSlide(2)"></span>
+                <span class="Dots" onclick="CurrentSlide(3)"></span>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat libero eget magna commodo, quis pharetra tellus pretium. Sed viverra ante in mauris finibus dapibus. Maecenas congue dapibus nulla, eu gravida orci consequat eu. Phasellus nec nunc malesuada, aliquam massa ac, accumsan metus. Fusce sed dignissim lectus. Nunc elit tellus, sollicitudin ac accumsan ut, egestas et dui. Maecenas aliquam est a ligula scelerisque, in aliquam neque sodales. Nullam condimentum euismod dictum. Curabitur non ex elementum, pretium enim ut, ornare ipsum.</p>
         </main>
     </body>
