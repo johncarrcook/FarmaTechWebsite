@@ -28,5 +28,5 @@ function PlusSlides(n) {
         slides[i].style.display = "none";
     }
     slides[slideposition-1].style.display = "block";
-    timer = setTimeout(SlideShow, 4000) // Change image every 8 seconds 
+    timer = setTimeout(SlideShow, 8000) // Change image every 16 seconds 
 }
