@@ -6,7 +6,7 @@
 body {
     height: 125vh;
     background-size: cover;
-    background-color: rgb(162, 205, 123);
+    background-color: #ffffff;
     font-family: sans-serif;
     margin-top: 90px;
     padding: 0px;
@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    color: black;
+    color: #000000;
 }
 
 .Visually-Hidden {
@@ -38,7 +38,7 @@ header {
     height: 90px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 25px 0 #000000;
     z-index: 1;
 }
 
@@ -51,7 +51,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ header li a {
     width: auto;
     margin-top: -23px;
     padding: 17px;
-    color: grey;
+    color: #808080;
     font-weight: bold;
     font-size: 19px;
     transition: 0.4s ease;
@@ -107,7 +107,7 @@ header li a {
 }
 
 .Back:hover, .Forward:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #000000cc;
 }
 
 .Fade {
@@ -127,11 +127,27 @@ header li a {
     to {opacity: 2}
 }
 
+/***** STORE STYLING ******/
+
+.Store-Block-Container {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.Store-Block {
+    background-color: red;
+}
+
+
 /***** CONTENT BOX STYLING ******/
 
 .Content-Block {
     max-width: 100%;
-    max-height: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
 }
 
